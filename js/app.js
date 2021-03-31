@@ -30,47 +30,52 @@
 
 // question1();
 
-function question2() {
+// function question2() {
   
 
 
-let hairStyle=prompt('do love the short hair');
-hairStyle = hairStyle.toLowerCase();
+// let hairStyle=prompt('do love the short hair');
+// hairStyle = hairStyle.toLowerCase();
 
-  if(hairStyle==="yes")
-  {
-     // console.log('hairStyle');
-  alert("yes,it really stylish")
+//   if(hairStyle==="yes")
+//   {
+//      // console.log('hairStyle');
+//   alert("yes,it really stylish")
 
-  }
-  else if(hairStyle==="no")
+//   }
+//   else if(hairStyle==="no")
 
 
-{
-   // console.log('hairStyle');
-    alert('long hair is nice also')
-}
-
-}
-
-question2();
-
-// let colorHair=prompt('do you prefer blond hair');
-// if(colorHair==="yes")
-// colorHair===colorHair.tolowerCase();{
-
-//     //console.log('yes,it really stylish');
-//     alert("yes,it really stylish")
+// {
+//    // console.log('hairStyle');
+//     alert('long hair is nice also')
 // }
 
-// if(colorHair==="no")
-// colorHair===colorHair.tolowerCase();{
-
-//    // console.log('black hair is nice also');
-//     alert('black hair is nice also')
 // }
 
+// question2();
 
+function question3() {
+  
+
+
+let colorHair=prompt('do you prefer blond hair');
+colorHair=colorHair.toLowerCase();
+if(colorHair==="yes"){
+
+    //console.log('yes,it really stylish');
+    alert("yes,it really stylish")
+}
+
+else if(colorHair==="no"){
+
+
+   // console.log('black hair is nice also');
+    alert('black hair is nice also')
+}
+}
+
+question3();
 
 // let Style=prompt('do you prefer formal style');
 // if( Style==="yes")
