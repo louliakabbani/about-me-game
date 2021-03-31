@@ -77,66 +77,77 @@
 
 // question3();
 
-function question4() {
+// function question4() {
   
 
 
-let Style=prompt('do you prefer formal style');
-Style=Style.toLowerCase();
+// let Style=prompt('do you prefer formal style');
+// Style=Style.toLowerCase();
 
-if( Style==="yes"){
+// if( Style==="yes"){
    
-  //  console.log('yes,it really elegant');
-    alert("yes,it really elegant")
-}
+//   //  console.log('yes,it really elegant');
+//     alert("yes,it really elegant")
+// }
 
-else if( Style==="no")
+// else if( Style==="no")
 
-{
-    //console.log('casual style is nice also');
-    alert('casual style  is nice also')
-}
-}
+// {
+//     //console.log('casual style is nice also');
+//     alert('casual style  is nice also')
+// }
+// }
 
-question4();
+// question4();
+
+// function question5() {
+  
+
 
 // let music=prompt('do you like rap song');
-// if( music==="yes")
-// music===music.tolowerCase();{
+// music=music.toLowerCase();
+// if( music==="yes"){
 //     //console.log('yes,it really cool');
 //     alert("yes,it really cool")
 // }
 
-// if( music==="no")
-// music===music.tolowerCase();{
+// else if( music==="no"){
+
 //     //console.log('jazz songis nice also');
 // alert('jazz song is nice also')
 
 // }
+// }
+
+// question5();
 
 
-// let guessNumber =null;
- 
-// for (let i = 0; i <4; i++) {
-//      guessNumber=prompt('guess how many times i traveled to u.s.a?');
-//      guessNumber = parseInt(guessNumber);
-
-//      if(guessNumber<2 ){
-//        guessNumber = alert('it is too low')}
-//        else if (guessNumber>2) {
-//          guessNumber = alert ('it is too high')
-//        } else if (guessNumber === 2) {
-//          alert('Correct I traveled 2 times')
-//          break;
-//        } else {
-//          alert('please answer with a number')
-//        }
-//        if (i===3) {
-//          alert('The correct answer is 2');
-//        }
-//       }
+function question6() {
   
 
+
+let guessNumber =null;
+ 
+for (let i = 0; i <4; i++) {
+     guessNumber=prompt('guess how many times i traveled to u.s.a?');
+     guessNumber = parseInt(guessNumber);
+
+     if(guessNumber<2 ){
+       guessNumber = alert('it is too low')}
+       else if (guessNumber>2) {
+         guessNumber = alert ('it is too high')
+       } else if (guessNumber === 2) {
+         alert('Correct I traveled 2 times')
+         break;
+       } else {
+         alert('please answer with a number')
+       }
+       if (i===3) {
+         alert('The correct answer is 2');
+       }
+      }
+  
+    
 
 
 // let brandsOfMakeup=null
