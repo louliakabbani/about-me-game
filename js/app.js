@@ -147,7 +147,9 @@ for (let i = 0; i <4; i++) {
        }
       }
   
-    
+}
+
+question6();
 
 
 // let brandsOfMakeup=null
