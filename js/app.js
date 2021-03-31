@@ -59,13 +59,13 @@ alert('hello ' + userName + 'welcome to the website');
 
 
 
-let Style=prompt('do you prefer formal style');
-if( Style==="yes")
-Style===Style.tolowerCase();{
+// let Style=prompt('do you prefer formal style');
+// if( Style==="yes")
+// Style===Style.tolowerCase();{
    
-  //  console.log('yes,it really elegant');
-    alert("yes,it really elegant")
-}
+//   //  console.log('yes,it really elegant');
+//     alert("yes,it really elegant")
+// }
 
 // if( Style==="no")
 // Style===Style.tolowerCase();
@@ -90,52 +90,49 @@ Style===Style.tolowerCase();{
 // }M.A.C	Check Price
 
 
+let guessNumber =null;
  
-for (let i = 0; i <3; i++) {
-  let number=prompt('guess how many times i traveled to u.s.a?');
-  if(number<2 ){alert('it is too low')}
-    console.log(number);
-  if(number<2){alert('it is too low')
+for (let i = 0; i <4; i++) {
+     guessNumber=prompt('guess how many times i traveled to u.s.a?');
+     guessNumber = parseInt(guessNumber);
+
+     if(guessNumber<2 ){
+       guessNumber = alert('it is too low')}
+       else if (guessNumber>2) {
+         guessNumber = alert ('it is too high')
+       } else if (guessNumber === 2) {
+         alert('Correct I traveled 2 times')
+         break;
+       } else {
+         alert('please answer with a number')
+       }
+       if (i===3) {
+         alert('The correct answer is 2');
+       }
+      }
+  
+
+
+
+let brandsOfMakeup=null
+let attempts=6
+let rightAnswer = ['L’Oreal','Maybelline','NYX','Avon'];
+
+
+
+firstLoop: while (attempts) {
+brandsOfMakeup=prompt('Guess my favourite brand of makeup');
+attempts-=1
+
+for(let i =0;i<rightAnswer.length;i++){
+  
+  if(brandsOfMakeup===rightAnswer[i]){
+alert('Yes, you are right and here are all the correct answers '+ rightAnswer);
+
+break firstLoop;
   }
-   else if(number>2){
-    alert("it is too hight")
-   }
-   alert("the right answer is 2");
+
 }
-
-
-
-// for (let i = 0; i <3; i++) {
-//   let number=prompt('guess how many times i traveled to u.s.a?');
-//   if(number<2 ){alert('it is too low')}
-//     console.log(number);
-//   if(number<2){alert('it is too low')
-//   }
-//    else if(number>2){
-//     alert("it is too hight")
-//    }
-//    alert("the right answer is 2");
-// }
-
-
-let brandsOFmakeup = ['L’Oreal','Maybelline','NYX','Avon'];
-
-for (let i = 0; i < 5; i++) 
-{ 
-  let guessBrand =prompt('guess my favorite brand of makeup?')
-  for(let j =0;j<brandsOFmakeup.length;j++){
-    if(guessBrand==brandsOFmakeup[i])
-    {
-      alert("yes you are right")
-      i=10;
-      alert('oh,no')
-
-    } 
-   
-  }
-    console.log(brandsOFmakeup [i]);
-   
+  alert('Sorry, you are wrong');
 }
-
-
 
