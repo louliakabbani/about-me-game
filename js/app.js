@@ -122,55 +122,62 @@
 // question5();
 
 
-function question6() {
+// function question6() {
   
 
 
-let guessNumber =null;
+// let guessNumber =null;
  
-for (let i = 0; i <4; i++) {
-     guessNumber=prompt('guess how many times i traveled to u.s.a?');
-     guessNumber = parseInt(guessNumber);
+// for (let i = 0; i <4; i++) {
+//      guessNumber=prompt('guess how many times i traveled to u.s.a?');
+//      guessNumber = parseInt(guessNumber);
 
-     if(guessNumber<2 ){
-       guessNumber = alert('it is too low')}
-       else if (guessNumber>2) {
-         guessNumber = alert ('it is too high')
-       } else if (guessNumber === 2) {
-         alert('Correct I traveled 2 times')
-         break;
-       } else {
-         alert('please answer with a number')
-       }
-       if (i===3) {
-         alert('The correct answer is 2');
-       }
-      }
+//      if(guessNumber<2 ){
+//        guessNumber = alert('it is too low')}
+//        else if (guessNumber>2) {
+//          guessNumber = alert ('it is too high')
+//        } else if (guessNumber === 2) {
+//          alert('Correct I traveled 2 times')
+//          break;
+//        } else {
+//          alert('please answer with a number')
+//        }
+//        if (i===3) {
+//          alert('The correct answer is 2');
+//        }
+//       }
   
+// }
+
+// question6();
+
+function question7() {
+  
+
+
+let brandsOfMakeup=null
+let attempts=6
+let rightAnswer = ['L’Oreal','Maybelline','NYX','Avon'];
+
+
+
+firstLoop: while (attempts) {
+brandsOfMakeup=prompt('Guess my favourite brand of makeup');
+attempts-=1
+
+for(let i =0;i<rightAnswer.length;i++){
+  
+  if(brandsOfMakeup===rightAnswer[i]){
+alert('Yes, you are right and here are all the correct answers '+ rightAnswer);
+
+break firstLoop;
+  }
+
 }
-
-question6();
-
-
-// let brandsOfMakeup=null
-// let attempts=6
-// let rightAnswer = ['L’Oreal','Maybelline','NYX','Avon'];
-
-
-
-// firstLoop: while (attempts) {
-// brandsOfMakeup=prompt('Guess my favourite brand of makeup');
-// attempts-=1
-
-// for(let i =0;i<rightAnswer.length;i++){
-  
-//   if(brandsOfMakeup===rightAnswer[i]){
-// alert('Yes, you are right and here are all the correct answers '+ rightAnswer);
-
-// break firstLoop;
-//   }
-
-// }
-//   alert('Sorry, you are wrong');
-// }
-
+  alert('Sorry, you are wrong');
+}
+if (!attempts) {
+  alert('Thank you for trying, the right answers are '+rightAnswer);
+}
+}
+question7();
