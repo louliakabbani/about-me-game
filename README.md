@@ -19,7 +19,9 @@ How long did it take you to complete this assignment?
 it take me like two hour to complete it 
 but i thought it will took not much time but i face a little issues.
 
-
+Navigator: Loulia Kabbani
+Driver: Yazan Tafesh
+We worked on this lab together
 
 
 copyrigth 2021
