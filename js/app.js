@@ -30,6 +30,9 @@
 
 // question1();
 
+function question2() {
+  
+
 
 let hairStyle=prompt('do love the short hair');
 hairStyle = hairStyle.toLowerCase();
@@ -48,7 +51,9 @@ hairStyle = hairStyle.toLowerCase();
     alert('long hair is nice also')
 }
 
+}
 
+question2();
 
 // let colorHair=prompt('do you prefer blond hair');
 // if(colorHair==="yes")
