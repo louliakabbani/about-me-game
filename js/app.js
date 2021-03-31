@@ -55,43 +55,50 @@
 
 // question2();
 
-function question3() {
+// function question3() {
   
 
 
-let colorHair=prompt('do you prefer blond hair');
-colorHair=colorHair.toLowerCase();
-if(colorHair==="yes"){
+// let colorHair=prompt('do you prefer blond hair');
+// colorHair=colorHair.toLowerCase();
+// if(colorHair==="yes"){
 
-    //console.log('yes,it really stylish');
-    alert("yes,it really stylish")
-}
+//     //console.log('yes,it really stylish');
+//     alert("yes,it really stylish")
+// }
 
-else if(colorHair==="no"){
+// else if(colorHair==="no"){
 
 
-   // console.log('black hair is nice also');
-    alert('black hair is nice also')
-}
-}
+//    // console.log('black hair is nice also');
+//     alert('black hair is nice also')
+// }
+// }
 
-question3();
+// question3();
 
-// let Style=prompt('do you prefer formal style');
-// if( Style==="yes")
-// Style===Style.tolowerCase();{
+function question4() {
+  
+
+
+let Style=prompt('do you prefer formal style');
+Style=Style.toLowerCase();
+
+if( Style==="yes"){
    
-//   //  console.log('yes,it really elegant');
-//     alert("yes,it really elegant")
-// }
+  //  console.log('yes,it really elegant');
+    alert("yes,it really elegant")
+}
 
-// if( Style==="no")
-// Style===Style.tolowerCase();
-// {
-//     //console.log('casual style is nice also');
-//     alert('casual style  is nice also')
-// }
+else if( Style==="no")
 
+{
+    //console.log('casual style is nice also');
+    alert('casual style  is nice also')
+}
+}
+
+question4();
 
 // let music=prompt('do you like rap song');
 // if( music==="yes")
