@@ -1,46 +1,54 @@
 'use strict';
 
-let userName = prompt('whats your name?');
+// let userName = prompt('whats your name?');
 
-while (!userName) {
-    userName = prompt('please write something');
-}
+// while (!userName) {
+//     userName = prompt('please write something');
+// }
 
 
-alert('hello ' + userName + 'welcome to the website');
+// alert('hello ' + userName + 'welcome to the website');
+
+// function question1() {
+  
+
 
 // let socialSituation=prompt('are you married??');
+// socialSituation = socialSituation.toUpperCase();
 
-//  if(socialSituation==="YES")
-//  socialSituation===socialSituation.toupperCase();
-//  {
+//  if(socialSituation==="YES"){
+ 
 //  // console.log('socialSituation');
-//   alert('thats great to hear')}
+//   alert('thats great to hear')
 
-//   if(socialSituation==="NO")
-//   socialSituation===socialSituation.touppererCase();
-//   {
+//   } else if(socialSituation==="NO"){
+  
 //     //console.log('socialSituation');
 //     alert ('hope you meet your partner life soon')
 //   }
-
-// let hairStyle=prompt('do love the short hair');
-
-//   if(hairStyle==="yes")
-//   hairStyle===hairStyle.tolowerCase();
-//   {
-//      // console.log('hairStyle');
-//   alert("yes,it really stylish")
-
-//   }
-
-
-// if(hairStyle==="no")
-// hairStyle===hairStyle.tolowerCase();
-// {
-//    // console.log('hairStyle');
-//     alert('long hair is nice also')
 // }
+
+// question1();
+
+
+let hairStyle=prompt('do love the short hair');
+hairStyle = hairStyle.toLowerCase();
+
+  if(hairStyle==="yes")
+  {
+     // console.log('hairStyle');
+  alert("yes,it really stylish")
+
+  }
+  else if(hairStyle==="no")
+
+
+{
+   // console.log('hairStyle');
+    alert('long hair is nice also')
+}
+
+
 
 // let colorHair=prompt('do you prefer blond hair');
 // if(colorHair==="yes")
@@ -87,52 +95,52 @@ alert('hello ' + userName + 'welcome to the website');
 //     //console.log('jazz songis nice also');
 // alert('jazz song is nice also')
 
-// }M.A.C	Check Price
+// }
 
 
-let guessNumber =null;
+// let guessNumber =null;
  
-for (let i = 0; i <4; i++) {
-     guessNumber=prompt('guess how many times i traveled to u.s.a?');
-     guessNumber = parseInt(guessNumber);
+// for (let i = 0; i <4; i++) {
+//      guessNumber=prompt('guess how many times i traveled to u.s.a?');
+//      guessNumber = parseInt(guessNumber);
 
-     if(guessNumber<2 ){
-       guessNumber = alert('it is too low')}
-       else if (guessNumber>2) {
-         guessNumber = alert ('it is too high')
-       } else if (guessNumber === 2) {
-         alert('Correct I traveled 2 times')
-         break;
-       } else {
-         alert('please answer with a number')
-       }
-       if (i===3) {
-         alert('The correct answer is 2');
-       }
-      }
+//      if(guessNumber<2 ){
+//        guessNumber = alert('it is too low')}
+//        else if (guessNumber>2) {
+//          guessNumber = alert ('it is too high')
+//        } else if (guessNumber === 2) {
+//          alert('Correct I traveled 2 times')
+//          break;
+//        } else {
+//          alert('please answer with a number')
+//        }
+//        if (i===3) {
+//          alert('The correct answer is 2');
+//        }
+//       }
   
 
 
 
-let brandsOfMakeup=null
-let attempts=6
-let rightAnswer = ['L’Oreal','Maybelline','NYX','Avon'];
+// let brandsOfMakeup=null
+// let attempts=6
+// let rightAnswer = ['L’Oreal','Maybelline','NYX','Avon'];
 
 
 
-firstLoop: while (attempts) {
-brandsOfMakeup=prompt('Guess my favourite brand of makeup');
-attempts-=1
+// firstLoop: while (attempts) {
+// brandsOfMakeup=prompt('Guess my favourite brand of makeup');
+// attempts-=1
 
-for(let i =0;i<rightAnswer.length;i++){
+// for(let i =0;i<rightAnswer.length;i++){
   
-  if(brandsOfMakeup===rightAnswer[i]){
-alert('Yes, you are right and here are all the correct answers '+ rightAnswer);
+//   if(brandsOfMakeup===rightAnswer[i]){
+// alert('Yes, you are right and here are all the correct answers '+ rightAnswer);
 
-break firstLoop;
-  }
+// break firstLoop;
+//   }
 
-}
-  alert('Sorry, you are wrong');
-}
+// }
+//   alert('Sorry, you are wrong');
+// }
 
